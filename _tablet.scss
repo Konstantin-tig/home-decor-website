@@ -1,0 +1,156 @@
+        //главная планшет
+        @media (max-width:1024px) {
+            .center {
+                padding-left: calc(50% - 786px/2);
+                padding-right: calc(50% - 786px/2);
+                box-sizing: border-box;
+            }
+
+            .for {
+
+                &__content {
+                    gap: 30px;
+                }
+
+                &__item {
+                    height: 268px;
+                }
+            }
+
+            .product-box__content,
+            .product-box__visual {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                row-gap: 38px;
+                column-gap: 32px;
+                width: 100%;
+            }
+
+            .product {
+                width: 100%;
+                max-width: 379px;
+
+            }
+
+            .product__img,
+            .product img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+            .link-box {
+                margin-bottom: 68px;
+            }
+
+            .footer__logo {
+                display: none;
+            }
+
+            // каталог планшет
+
+            .filtering-form {
+                display: none;
+            }
+
+            .catalog-top {
+                width: 100%;
+                height: 400px;
+                background-image: url(./img/catalog_tablet__top.png);
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                color: #FFFFFF;
+                margin-bottom: 64px;
+            }
+
+            .catalog-product__content {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 30px;
+            }
+
+            .product__box-price {
+                margin-bottom: 8px;
+            }
+
+            // корзина планшет
+
+            .cart-top {
+                width: 100%;
+                height: 400px;
+                background-image: url(./img/cart-top__tablet.png);
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                color: #FFFFFF;
+                margin-bottom: 64px;
+
+            }
+
+            .cart {
+                display: grid;
+                grid-template-columns: none;
+                padding-left: 24px;
+                padding-right: 24px;
+                row-gap: 64px;
+            }
+
+            .checkout-item:last-of-type {
+                padding-top: 32px;
+                padding-bottom: 32px;
+            }
+
+            .cart-form {
+                white-space: nowrap;
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // @media (min-width:768px) and (max-width: 833px) {
+        //     .center {
+        //         padding-left: 24px;
+        //         padding-right: 24px;
+        //     }
+
+        //     .product {
+        //         width: 345px;
+        //     }
+
+        // }
